@@ -1,0 +1,9 @@
+# Logs
+__pycache__/
+
+capstone_back/
+
+models/__py__cache__/
+models/image_captioning_modelTmv2.pth
+
+utils/__py__cache__/
