@@ -5,5 +5,6 @@ capstone_back/
 
 models/__py__cache__/
 models/image_captioning_modelTmv2.pth
+models/retrieval/Flickr8k_Images
 
 utils/__py__cache__/

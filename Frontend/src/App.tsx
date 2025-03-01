@@ -47,7 +47,7 @@ export default function App() {
     console.log("Generating...");
     console.log("Image:", image);
     console.log("Model:", model);
-    const url = model === 'gpt-2-vision' ? 'http://127.0.0.1:8000/upload/i2c/gpt2vit' : 'http://127.0.0.1:8000/upload/i2c/custom';
+    const url = model === 'gpt-2-vision' ? 'http://127.0.0.1:8000/upload/i2c/gpt2vit' : 'http://127.0.0.1:8000/upload/i2c/8k';
     if (image) {
       const formData = new FormData();
       await formData.append('image', image.raw);
